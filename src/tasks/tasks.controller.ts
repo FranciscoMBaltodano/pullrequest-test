@@ -10,7 +10,7 @@ import {
 import { TasksService } from './tasks.service';
 import { CreateTaskDto, UpdateTaskDto } from './dto/task.dto';
 
-@Controller('tasks')
+@Controller('tasksMadeInFirstBranch')
 export class TasksController {
   constructor(private taskService: TasksService) {}
 
